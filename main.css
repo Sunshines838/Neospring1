@@ -1,3 +1,28 @@
 body{
-  background-color: black;
+  background-color: #423e25;
+}
+
+.navbar-brand {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.nav-link {
+  font-family: "Arsenal SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}
+
+.dropdown-item {
+  font-family: "Arsenal SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}
+
+.navbar-toggler{
+  background-color: #d3c7b9;
 }
