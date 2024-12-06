@@ -34,16 +34,14 @@ h1{
   font-size: 60px;
 }
 
-p{
+p, hr{
   color: white;
   font-family: "Arsenal SC", serif;
   font-size: 20px;
   text-align: center;
 }
 
-video {
-      
-        
+iframe {
   display: block;
   margin: 20px auto;
     }
