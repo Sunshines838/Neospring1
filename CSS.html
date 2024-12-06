@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Now and Then</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav style="background-color: #20220c;" class="navbar navbar-expand-lg  p-3">
+    <div class="container-fluid">
+      <a  style="color:#d3c7b9;" class="navbar-brand" href="https://neospring.org/@sunshine?page=1#">@Sunshine</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a style="color:#d3c7b9;" class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a  style="color:#d3c7b9;" class="nav-link" href="CSS.html">CSS for Neospring</a>
+          </li>
+          <li class="nav-item">
+            <a  style="color:#d3c7b9;" class="nav-link" href="socials.html">socials</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a  style="color:#d3c7b9;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul style="background-color: #d3c7b9"
+            class="dropdown-menu">
+              <li><a class="dropdown-item" href="questions.html">Q&A</a></li>
+              <li><a class="dropdown-item" href="message.html">message me</a></li>
+              <li><a class="dropdown-item" href="https://neospring.org/@sunshine?page=1">follow me!</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+    
+  
+
+  <style>
+    pre {
+        background-color: #2d2d2d; /* Dark background */
+        border: 1px solid #444; /* Darker border */
+        border-radius: 10px; /* Rounded corners */
+        padding: 10px;
+        overflow: auto;
+        max-width: 600px;
+        margin: 20px auto;
+        color: #ccc; /* Default text color */
+        font-family: 'Courier New', Courier, monospace;
+    }
+  
+    /* Custom syntax highlighting */
+    .keyword { color: #f92672; } /* Pink for keywords */
+    .string { color: #e6db74; } /* Yellow for strings */
+    .function { color: #66d9ef; } /* Light blue for functions */
+    .comment { color: #75715e; font-style: italic; } /* Gray for comments */
+  </style>
+  
+  <h1>CSS FOR NEOSPRING</h1>
+
+  <p>I know there isnt really a Css website for Neospring so I decieded to make a part of my webiste dedicated for it.</p>
+  <p>So to start off, ill do how to chaneg the font on your Neospring. Before you can put any font, you need to make sure the fonts url is there</p>
+  <p>if you go to google fonts, you can select the font you want from there. When you watch the video you will know to to do so: </p>
+
+
+  <video controls width="640" height="360">
+    <source src="https://file.garden/Z1HGRMzX-heTT6aW/Screen%20Recording%202024-12-05%20at%209.19.53%E2%80%AFAM.mp4" type="video/mp4">
+</video>
+
+<p>When you have the fonts that you want @imported, you can start making what ever you want have a font.</p>
+  <pre><code>
+Here are the element you need to know:
+
+    <span class="string">h3</span>: Tertiary headings, used under <span class="string">h2</span>. Smaller font size than <span class="string">h2</span>. This changes your display name.
+
+    <span class="string">h4</span>: Subheadings or minor sections. Smallest size among the heading tags mentioned here. This changes your username font on your page.
+
+    <span class="string">b</span>: This changes the headers in the drop down on your profile picture, and changes the number font on you followers, following, and friends icons.
+
+    <span class="string">a</span>: This changes the drop down font on when you press your profile picture.
+
+    <span class="string">p</span>: This changes everything! Well it changes anything in your biography, side bar, motivational header, users post, and eveny your own post.
+
+    <span class="string">textarea</span>: This changes the "Type your question!" font.
+
+    <span class="string">span</span>: This changes the font on the nav bar, where it saids home, timeline, ect.
+
+    <span class="keyword">function</span> <span class="function">helloWorld</span>() {
+      <span class="keyword">console</span>.log(<span class="string">'Hello, World!'</span>);
+  }
+  </code></pre>
+  
+  <p>When it come to <span class="string">h1</span> and  <span class="string">h2</span>, I dont personally use them, and when i put them in the css it doesnt do anything with mine. That doesnt mean it wont change anything on yours though! </p>
+
+  <p>Now that you understand what the differnt subheadinge do, we can now change the fonts!</p>
+ 
+  <pre><code>
+    Now you have your fonts imported and know what all the elements, we can add the fonts to them.
+
+    <span class="string">(Here you put in any element you want, so h3, h4, a, b, etc.)</span>{
+      <span class="function">font-family:</span>(you can put any font that you imported into here)
+  }
+
+  </code></pre>
+
+  <p>If you want to grab that font you would like to put, you can go back to google fonts,click the bag icon on the top right corner, press get embed code, look for the font you want, copy paste only the font family into it and there.</p> 
+
+  <p>Its a little hard to explane so here is a short video:</p>
+
+  <video controls width="640" height="360">
+    <source src="https://file.garden/Z1HGRMzX-heTT6aW/Screen%20Recording%202024-12-05%20at%208.27.52%E2%80%AFPM.mp4" type="video/mp4">
+</video>
+
+<pre><code>
+  So at the end of it, you should have something like this: 
+
+
+  <span class="string">b, h4, h3</span>{
+    <span class="function">font-family:</span>font-family: "Arsenal SC", serif;
+  }
+
+  It will be different depending on the elements you you.
+
+</code></pre>
+
+And thats it! You have changed the font!
+
+</div>
+</body>
+</html>
