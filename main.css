@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #423e25;
 }
 
@@ -23,6 +23,27 @@ body{
   font-size: larger;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   background-color: #d3c7b9;
 }
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: "Arsenal SC", serif;
+  font-size: 60px;
+}
+
+p{
+  color: white;
+  font-family: "Arsenal SC", serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+video {
+      
+        
+  display: block;
+  margin: 20px auto;
+    }
