@@ -44,4 +44,11 @@ p, hr{
 iframe {
   display: block;
   margin: 20px auto;
-    }
+}
+
+@media (max-width: 402px) {
+  iframe {
+      width: 100%; /* Video takes 90% of the viewport width on small screens */
+      height: 200px; /* Ensures the video scales proportionally */
+  }
+}
